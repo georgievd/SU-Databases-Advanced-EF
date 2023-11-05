@@ -94,7 +94,7 @@
             foreach (var s in songsAboveDuration)
             {
                 sb
-                    .AppendLine($"-Song #{counter++}")
+                    .AppendLine($"-SongModelConfiguration #{counter++}")
                     .AppendLine($"---SongName: {s.SongName}")
                     .AppendLine($"---Writer: {s.WriterName}");
 
